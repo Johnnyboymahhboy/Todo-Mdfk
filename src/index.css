@@ -1,0 +1,158 @@
+.MainContainer{
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.SecondContainer{
+
+  width: 1000px;
+  padding: 1em;
+}
+.AddForm{
+
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+}
+.Forms{
+  display: flex;
+  padding: .5em;
+
+  width: 70%;
+
+}
+.f{
+  padding: .2em;
+  margin: .5em;
+  border-radius: 10px;
+}
+.ListForm{
+ 
+  padding: 1em;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h1{
+  text-align: center;
+  font-family: monospace;
+}
+ul{
+  width: 100%;
+  background-color: rgb(172, 134, 83);
+  display: flex;
+  align-items: center;
+  padding: .6em;
+  border-radius: 10px;
+}
+
+.ok{
+  width: 100%;
+  display: flex;
+ 
+  align-items: center;
+}
+li{
+  font-size: 1em;
+  list-style: none;
+  width: 100%;
+  margin-left: .5em;
+  font-family: monospace;
+  color: white;
+}
+.MdButton{
+  color: white;
+  font-size: 1.6em;
+  margin-right: .2em;
+}
+.EditBtn{
+  color: white;
+  font-size: 1.6em;
+  
+}
+
+.MdButton:hover{
+  color: rgb(236, 87, 87);
+  margin-right: .2em;
+}
+.EditBtn:hover{
+  color: rgb(34, 118, 245);
+
+}
+.addBtn{
+  background-color: burlywood;
+  padding: .5em;
+
+}
+.addBtn:hover{
+  
+  background-color: rgb(172, 134, 83);
+}
+.ifForm{
+  background-color: rgb(172, 134, 83);
+  display: flex;
+  padding: .6em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+.saveBtn{
+  background-color: burlywood;
+  padding: .5em;
+  border: none;
+  margin-left: .2em;
+  border-radius: 10px;
+  font-family: monospace;
+  color: white;
+  
+}
+.saveBtn:hover{
+  background-color: rgb(255, 194, 113);
+}
+.inn{
+  border-radius: 10px;
+  border: none;
+  padding: .5em;
+}
+.ErrorBtn{
+  background-color: rgb(241, 105, 105);
+  padding: .5em;
+  color: white;
+}
+.errors{
+  font-size: 1em;
+  font-family: monospace;
+  margin-left: .5em;
+}
+.invalid {
+  background-color: rgb(254, 81, 81);
+  animation: shake 0.4s ease-in-out;
+  color: white;
+  padding: .5em;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: .5em;
+}
+.invalidAddForm{
+  background-color: rgb(254, 81, 81);
+  animation: shake 0.4s ease-in-out;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 20%, 30%, 40%, 50% {
+    transform: translateX(-10px);
+  }
+  10%, 30%, 60%, 30% {
+    transform: translateX(10px);
+  }
+}
