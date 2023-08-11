@@ -12,5 +12,6 @@ export const MyStore = create((set) => ({
       return data.id === id ? {...data, Name: inputUpdate} : data
     })
   }))
+  Clear: () => set((state) => ({item: []}))
 }))
 
